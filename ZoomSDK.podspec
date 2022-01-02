@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "author" => "peterlazar1993@gmail.com" }
   s.platform     = :ios, "11.0"
 
-  s.source = { :http => 'https://github.com/Native-Health/zoom-sdk-pods/releases/download/zoom-releases/zoom-sdk-ios-5.9.1.2180.zip' }
+  s.source = { :http => 'https://github.com/Native-Health/zoom-sdk-pods/releases/download/5.9.1.2180/zoom-sdk-ios-5.9.1.2180.zip' }
   s.requires_arc = true
 
   s.vendored_frameworks =  "**/lib/MobileRTC.xcframework", "**/lib/MobileRTCScreenShare.xcframework"
